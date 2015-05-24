@@ -35,7 +35,7 @@ value.
 var wait = require('co-waiter');
 
 var delayed = wait.minutes(30, "something");
-p.then(function(value) {
+delayed.then(function(value) {
   console.log("this is", value, "30 minutes too late :(");
 });
 ```
@@ -52,7 +52,9 @@ co(function*() {
 ```javascript
 somePromise.then(function(val) {
   return wait.until(someDate, val);
-}).then();
+}).then(function(x) {
+  console.log(x, "took a long time to get here!");
+});
 ```
 
 ```javascript
@@ -61,7 +63,7 @@ co(function*() {
   val = yield wait.minute(Math.PI, val);
   return val;
 }).then(function(myVal) {
-  console.log(myVal + " after π seconds") ;
+  console.log(myVal + " after π seconds");
 });
 ```
 
