@@ -1,6 +1,6 @@
 {
   "name": "co-waiter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "lightweight promise-based wait/setTimeout interface (designed for use with co)",
   "keywords": [
     "co",
