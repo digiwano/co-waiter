@@ -1,0 +1,15 @@
+{
+  "name": "co-waiter",
+  "version": "1.0.0",
+  "description": "lightweight promise-based wait/setTimeout interface (designed for use with co)",
+  "keywords": ["co","promise","setTimeout","sleep","wait"],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rando Christensen <digiwano@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "lie": "^2.8.1"
+  }
+}
