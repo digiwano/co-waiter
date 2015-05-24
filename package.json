@@ -1,8 +1,14 @@
 {
   "name": "co-waiter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "lightweight promise-based wait/setTimeout interface (designed for use with co)",
-  "keywords": ["co","promise","setTimeout","sleep","wait"],
+  "keywords": [
+    "co",
+    "promise",
+    "setTimeout",
+    "sleep",
+    "wait"
+  ],
   "repository": "digiwano/co-waiter",
   "main": "index.js",
   "scripts": {
